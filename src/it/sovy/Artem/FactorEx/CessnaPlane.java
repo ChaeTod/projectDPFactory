@@ -28,7 +28,7 @@ public class CessnaPlane extends Configuration {
         return engineEfficiency;
     }
 
-     @Override
+    @Override
     public String getApproximateCost() {
         calculateCapacityValue = approximateCostPattern.matcher(getEngineEfficiency());
         calculateLifeRangeValue = approximateCostPattern.matcher(getCapacity());

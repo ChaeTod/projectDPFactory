@@ -7,7 +7,7 @@ public class C17CargoPlane extends Configuration {
     private String engineEfficiency;
     private double approximateCost;
 
-     C17CargoPlane(String capacity, String lifeRange, String engineEfficiency) {
+    C17CargoPlane(String capacity, String lifeRange, String engineEfficiency) {
         this.capacity = capacity;
         this.lifeRange = lifeRange;
         this.engineEfficiency = engineEfficiency;

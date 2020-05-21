@@ -2,7 +2,7 @@ package it.sovy.Artem.FactorEx;
 
 public class F15E extends Configuration {
 
-     private String capacity;
+    private String capacity;
     private String lifeRange;
     private String engineEfficiency;
     private double approximateCost;

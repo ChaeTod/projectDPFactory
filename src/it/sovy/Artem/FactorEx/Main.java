@@ -9,5 +9,5 @@ public class Main {
         System.out.println("Cessna 172 Civil Aviation Configuration -- " + cessna);
         System.out.println("C17 Cargo Plane Configuration -- " + c17);
         System.out.println("F15 Super Eagle Multifunctional Fighter Configuration -- " + F15E);
-     }
+    }
 }

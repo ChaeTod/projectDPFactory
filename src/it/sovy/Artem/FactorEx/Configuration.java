@@ -10,7 +10,7 @@ public abstract class Configuration {
 
     public abstract String getLifeRange();
 
-     public abstract String getEngineEfficiency();
+    public abstract String getEngineEfficiency();
 
     public abstract String getApproximateCost(); // all tree classes with different planes has different formula to calculate the plane's cost
 
