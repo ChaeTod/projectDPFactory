@@ -1,7 +1,7 @@
 package it.sovy.Artem.FactorEx;
 
 public class PlaneFactory {
-    static Configuration getComputer(String planeType, String capacity, String lifeRange, String engineEfficiency) {
+    static Configuration getPlane(String planeType, String capacity, String lifeRange, String engineEfficiency) {
         if ("CA".equalsIgnoreCase(planeType))
             return new CessnaPlane(capacity, lifeRange, engineEfficiency);
         else if ("CP".equalsIgnoreCase(planeType))
